@@ -1,6 +1,6 @@
 {
   "name": "vivia",
-  "version": "0.4.13",
+  "version": "0.5.0",
   "description": "Persistent context network for coding projects. Tracks tasks, dependencies, and decisions across sessions.",
   "author": {
     "name": "Vivia",
