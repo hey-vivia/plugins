@@ -1,0 +1,30 @@
+name: Notify Vivia docs sync
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".agents/**"
+      - ".claude-plugin/**"
+      - ".cursor-plugin/**"
+      - "plugins/**"
+  workflow_dispatch:
+
+jobs:
+  dispatch:
+    name: Request docs regeneration
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch to the private app repository
+        env:
+          GH_TOKEN: ${{ secrets.VIVIA_DISPATCH_TOKEN }}
+          PLUGINS_SHA: ${{ github.sha }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::warning::VIVIA_DISPATCH_TOKEN is not configured; run Docs Sync manually after plugin changes."
+            exit 0
+          fi
+          gh api repos/mystic-io/vivia/dispatches \
+            --method POST \
+            --field event_type=plugins-updated \
+            --field client_payload[plugins_sha]="$PLUGINS_SHA"
