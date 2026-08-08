@@ -1,0 +1,17 @@
+{
+  "name": "vivia",
+  "owner": {
+    "name": "Vivia",
+    "email": "hello@heyvivia.com"
+  },
+  "metadata": {
+    "description": "Persistent context network for coding agents."
+  },
+  "plugins": [
+    {
+      "name": "vivia",
+      "source": "plugins/cursor",
+      "description": "Persistent context network for coding projects. Tracks tasks, dependencies, and decisions across sessions."
+    }
+  ]
+}

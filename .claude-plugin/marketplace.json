@@ -1,0 +1,17 @@
+{
+  "name": "vivia",
+  "owner": {
+    "name": "Vivia"
+  },
+  "plugins": [
+    {
+      "name": "vivia",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hey-vivia/plugins",
+        "path": "plugins/claude-code"
+      },
+      "description": "Persistent context network for coding projects. Tracks tasks, dependencies, and decisions across sessions."
+    }
+  ]
+}

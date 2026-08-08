@@ -1,0 +1,8 @@
+{
+  "_comment": "Canonical-source hash pins for the composer phase extracts in this directory. The extracts hand-mirror sections of these files; scripts/check-plugins.ts fails CI when a pinned file changes, until the extracts are reviewed and the pin refreshed via `bun run sync:plugins`.",
+  "pins": {
+    "plugins/claude-code/skills/vivia/references/conventions.md": "190a325551abd4fd7e1f099c762894e95dba01872ff499f1dbbae934c2d2af04",
+    "plugins/claude-code/skills/vivia/references/artifacts.md": "c66937d696665b191a7b2518afffda89087d0a546c1864df163eb6d4b2282aa6",
+    "plugins/claude-code/skills/vivia/references/lifecycle.md": "138c26a3f623ac68b8570d73e9a3a930cee97297e95d90feca1eb0a697a58d64"
+  }
+}
