@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1254 1254">
+  <defs>
+    <linearGradient id="a" x1="200" x2="1015" y1="545" y2="810" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2369c1"/>
+      <stop offset="10%" stop-color="#2469c1"/>
+      <stop offset="20%" stop-color="#256ac2"/>
+      <stop offset="30%" stop-color="#266dc3"/>
+      <stop offset="35%" stop-color="#2874c3"/>
+      <stop offset="40%" stop-color="#2e87c3"/>
+      <stop offset="45%" stop-color="#38a4c0"/>
+      <stop offset="50%" stop-color="#3cb7bb"/>
+      <stop offset="55%" stop-color="#3bc6b3"/>
+      <stop offset="60%" stop-color="#38cfa9"/>
+      <stop offset="65%" stop-color="#37d2a3"/>
+      <stop offset="70%" stop-color="#37d4a1"/>
+      <stop offset="75%" stop-color="#36d6a0"/>
+      <stop offset="80%" stop-color="#35d89e"/>
+      <stop offset="85%" stop-color="#34dc9c"/>
+      <stop offset="90%" stop-color="#32e09b"/>
+      <stop offset="100%" stop-color="#31e49b"/>
+    </linearGradient>
+    <filter id="b" width="116%" height="128%" x="-8%" y="-14%" color-interpolation-filters="sRGB">
+      <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="3.2"/>
+      <feOffset dy="1" in="blur" result="offsetBlur"/>
+      <feFlood flood-color="#376a91" flood-opacity=".1" result="shadowColor"/>
+      <feComposite in="shadowColor" in2="offsetBlur" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <path fill="url(#a)" d="M417 372a227 227 0 0 0-178 89 243 243 0 0 0-35 239 233 233 0 0 0 153 137 238 238 0 0 0 119 1q32-7 60-25 33-20 58-51 22-29 39-60l35-59 36-60q18-32 45-60 13-14 30-23 15-8 30-11 30-6 59 1 35 8 60 36a126 126 0 0 1 27 120q-11 34-39 58-26 21-60 26-31 4-60-5-16-6-30-16-14-13-30-21c-19-8-44-4-59 11a59 59 0 0 0-14 60q7 17 22 29 14 12 29 21a248 248 0 0 0 119 36 241 241 0 0 0 120-30 230 230 0 0 0 116-227 233 233 0 0 0-398-148q-28 28-48 60l-35 59-35 60-17 30-19 30q-23 31-57 46-28 10-59 5a123 123 0 0 1-99-87q-7-29-1-60 8-34 32-59a124 124 0 0 1 150-22q14 11 30 17c20 7 44 3 59-11 16-15 22-40 15-60q-7-17-21-29-14-11-29-18-28-15-60-23-29-8-60-6" filter="url(#b)" shape-rendering="geometricPrecision"/>
+</svg>

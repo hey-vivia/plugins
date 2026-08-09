@@ -37,8 +37,8 @@
       "Use $vivia to record what changed after this task."
     ],
     "brandColor": "#315C8C",
-    "composerIcon": "./assets/vivia-mark-small.svg",
-    "logo": "./assets/vivia-mark.svg",
+    "composerIcon": "./assets/vivia-logo.svg",
+    "logo": "./assets/vivia-logo.svg",
     "screenshots": []
   }
 }
