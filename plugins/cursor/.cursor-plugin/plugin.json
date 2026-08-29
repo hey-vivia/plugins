@@ -1,0 +1,22 @@
+{
+  "name": "vivia",
+  "version": "0.5.0",
+  "description": "Keep coding project context across sessions. Track tasks, dependencies, and decisions.",
+  "author": {
+    "name": "Vivia",
+    "email": "hello@heyvivia.com"
+  },
+  "homepage": "https://www.heyvivia.com",
+  "repository": "https://github.com/hey-vivia/plugins",
+  "license": "AGPL-3.0",
+  "keywords": [
+    "project-management",
+    "task-tracking",
+    "dependencies",
+    "context-network",
+    "mcp",
+    "coding-agents"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json"
+}
