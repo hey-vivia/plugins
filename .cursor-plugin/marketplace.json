@@ -1,0 +1,17 @@
+{
+  "name": "vivia",
+  "owner": {
+    "name": "Vivia",
+    "email": "hello@heyvivia.com"
+  },
+  "metadata": {
+    "description": "Keep coding project context across sessions for coding agents."
+  },
+  "plugins": [
+    {
+      "name": "vivia",
+      "source": "plugins/cursor",
+      "description": "Keep coding project context across sessions. Track tasks, dependencies, and decisions."
+    }
+  ]
+}

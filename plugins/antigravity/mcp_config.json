@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "vivia": {
+      "serverUrl": "https://app.heyvivia.com/api/mcp"
+    }
+  }
+}
