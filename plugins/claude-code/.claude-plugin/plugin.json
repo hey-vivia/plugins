@@ -1,7 +1,7 @@
 {
   "name": "vivia",
   "description": "Keep coding project context across sessions. Track tasks, dependencies, and decisions.",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "author": {
     "name": "Vivia",
     "url": "https://www.heyvivia.com"
