@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.0](https://github.com/hey-vivia/plugins/compare/v0.6.0...v0.7.0) (2026-08-29)
+
+
+### Features
+
+* flatten repository history ([c704bc7](https://github.com/hey-vivia/plugins/commit/c704bc775f6a0bd202d1d2e41919017e67530db6))
+
 ## [0.6.0](https://github.com/hey-vivia/plugins/compare/v0.5.0...v0.6.0) (2026-08-29)
 
 
